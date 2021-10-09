@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Stock Spotlight",
+  "short_name": "Stock Spotlight",
+  "description": "Select the stock symbol text, right click and choose Stock Spotlight from the context menu",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "assets/spotlight.png"
+  },
+  "background": {"page": "background.html"}
+}
